@@ -1,3 +1,8 @@
+*{
+   margin:0;
+   padding: 0;
+}
+
 a {
 text-decoration: none; 
 }
@@ -37,13 +42,13 @@ max-width: 100%;
 /* header*/
 
 header{
+width: 100%;
 background-color: lightgreen;
 border-color: #599a68;
 float: left;
-/* margin-top, margin-right, margin-bottom, margin-left */
-margin: -15px 0 30px 0;
-padding: 5px 0 0 0;
-width: 100%;
+
+
+
 }
 h1, h2{
 color: black;
@@ -161,4 +166,3 @@ footer{
    color: #bdc3c7;
    } 
 
-}
